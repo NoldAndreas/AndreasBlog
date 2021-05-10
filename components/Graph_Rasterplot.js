@@ -37,7 +37,8 @@ const Graph_Rasterplot = props => {
         <YAxis>
         <Label value="Input"
             dx={-30}
-            angle={-90}/>
+            angle={-90}
+            fill="#8884d8"/>
         </YAxis>
         <Line type="monotone" data={dataExt} dataKey="mu_Ext_0" stroke="#8884d8" dot={false}/>
       </LineChart>
@@ -48,12 +49,14 @@ const Graph_Rasterplot = props => {
        <CartesianGrid />
        <XAxis type="number" dataKey={"time"} name="time" domain={[0, 4]}>
             <Label value="Time"
-                   dy={20}/>
+                   dy={20}
+                   fill="#8884d8"/>
        </XAxis>
        <YAxis type="number" dataKey={"neuron_id"} name="Neuron id"  domain={[0,800]} text="sda">
           <Label value="Neuron #"
               dx={-30}
-              angle={-90}/>
+              angle={-90}
+              fill="#8884d8"/>
        </YAxis>
       <Scatter
           name="Median"

@@ -34,10 +34,11 @@ const Graph1 = props => {
 
      // add the options to the button
      d3.select("#selectButtonn")
+       .attr("class","form-select block")
        .selectAll('myOptions')
-        .data(allGroup)
+       .data(allGroup)
        .enter()
-      .append('option')
+       .append('option')
        .text(function (d) { return d; }) // text showed in the menu
        .attr("value", function (d) { return d; }) // corresponding value returned by the button
 
@@ -57,6 +58,7 @@ const Graph1 = props => {
                  .attr("x", width)
                  .attr("y", height+20)
                  .attr("dy", "1em")
+                 .style('fill','#8884d8')
                  .text("Time [seconds]");
 
                  svg.append("g").append("text")
@@ -65,6 +67,7 @@ const Graph1 = props => {
                      .attr("y", 6)
                      .attr("dy", ".75em")
                      .attr("transform", "rotate(-90)")
+                     .style('fill','#8884d8')
                      .text("Firing rate [Hz]");
 
              /*svg.append("g").append("text")
@@ -92,7 +95,7 @@ const Graph1 = props => {
                  .x(function(d) { return x(+d.time) })
                  .y(function(d) { return y(+d.silent) })
                )
-               .attr("stroke", "black")
+               .attr("stroke","#8884d8")
                .style("stroke-width", 1)
                .style("fill", "none")
 

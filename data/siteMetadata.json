@@ -1,7 +1,7 @@
 {
   "title": "Andreas Nold Personal Website",
   "author": "Andreas Nold",
-  "headerTitle": "Andreas Blog",
+  "headerTitle": "Science",
   "description": "Projects and Blog",
   "language": "en-us",
   "siteUrl": "https://www.andreasnold.eu",
@@ -10,7 +10,7 @@
   "socialBanner": "/static/images/twitter-card.png",
   "email": "andreasnold@me.com",
   "github": "https://github.com/NoldAndreas",
-  "twitter": "https://twitter.com/AndreasNold1/",    
+  "twitter": "https://twitter.com/AndreasNold1/",
   "linkedin": "https://www.linkedin.com/in/andreas-nold-8686561/",
   "locale": "en-US"
 }

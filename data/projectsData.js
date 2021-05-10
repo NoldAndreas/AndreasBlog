@@ -3,7 +3,7 @@ const projectsData = [
     title: 'Working memory',
     description: `Exploring transients of working memory correlates`,
     imgSrc: '/static/images/PRG1_Model.png',
-    href: 'WM_PRG',    
+    href: '/WM_PRG',    
   },
   {
     title: 'Dynamic Contact Line',
