@@ -5,7 +5,7 @@
 
 2020
 
-- Becker, S., Nold, A., Tchumatchenko, T., “Formation and synaptic control of active transient working memory representations” [Cell Reports, in revision],
+- Becker, S., Nold, A., Tchumatchenko, T., “Formation and synaptic control of active transient working memory representations”
 [BioRxiv](https://doi.org/10.1101/2020.08.30.273995)
 - Sun, C., Nold, A., Heilemann, M., Tchumatchenko, T., Schuman, E., “The Spatial Scale of Synaptic Protein Allocation during Homeostatic Plasticity”
 [BioRxiv](https://doi.org/10.1101/2020.04.29.068833)
