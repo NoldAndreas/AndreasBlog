@@ -1,16 +1,23 @@
 const projectsData = [
   {
-    title: 'Working memory',
-    description: `Exploring transients of working memory correlates`,
+    title: 'Modeling biological systems',
+    description: `Exploring working memory correlates, disease mechanisms and intracellular transport processes.. `,
     imgSrc: '/static/images/PRG1_Model.png',
-    href: '/WM_PRG',    
+    href: '/ModelingBiology',
   },
   {
-    title: 'Dynamic Contact Line',
-    description: `Understanding what happens at the smallest scales when liquid, gas and solid meet.`,
+    title: 'Fluid mechanics',
+    description: `Exploring what happens at the smallest scales when liquid, gas and solid meet..`,
     imgSrc: '/static/images/contactline.png',
     href: '/blog/ContactLine',
   },
+  {
+    title: 'Neuronal networks',
+    description: `How do large populations of neurons interact and what behaviours do they give rise to?`,
+    imgSrc: '/static/images/u_pdf_sample.png',
+    href: '/NeuronalNetworks',
+  },
+
 ]
 
 export default projectsData
