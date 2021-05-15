@@ -8,6 +8,7 @@ import { PageSeo } from '@/components/SEO'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 
+
 const MAX_DISPLAY = 5
 const postDateTemplate = { year: 'numeric', month: 'long', day: 'numeric' }
 

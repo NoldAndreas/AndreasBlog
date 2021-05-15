@@ -6,6 +6,7 @@ draft: false
 summary: Example of a markdown file with code blocks and syntax highlighting
 ---
 
+
 PhD Thesis "From the nano- to the macroscale – bridging scales for the moving contact line problem", access [here](https://spiral.imperial.ac.uk/handle/10044/1/34933).
 
 The moving contact line problem is one of the main unsolved fundamental problems in fluid mechanics, with relevant physical phenomena spanning multiple scales, from the molecular to the macroscopic scale.
