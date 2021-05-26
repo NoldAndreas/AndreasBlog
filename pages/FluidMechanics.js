@@ -10,7 +10,7 @@ import { PageSeo } from '@/components/SEO'
 
 export async function getStaticProps() {
   const allPosts = await getAllFilesFrontMatter('publications')
-  const post = await getFileBySlug('publications','ModelsBiology')
+  const post = await getFileBySlug('publications','FluidMechanics')
 
   return { props: { post} }
 
@@ -25,14 +25,14 @@ export default function ModelingBiology({post}) {
   return (
     <>
     <PageSeo
-      title={`Modeling biological systems - ${siteMetadata.author}`}
-      description={`How postsynatptic plasticity can control of working memory`}
-      url={`${siteMetadata.siteUrl}/ModelingBiology`}
+      title={`Dynamic Contact Line - ${siteMetadata.author}`}
+      description={`Exploring what happens at the smallest scales when liquid, gas and solid meet..`}
+      url={`${siteMetadata.siteUrl}/FluidMechanics`}
     />
     <div className="divide-y">
       <div className="pt-6 pb-8 space-y-2 md:space-y-5">
         <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          Modeling biological systems
+          FluidMechanics
         </h1>
       </div>
       <div className="items-start space-y-2 xl:grid xl:grid-cols-2 xl:gap-x-8 xl:space-y-0">

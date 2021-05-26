@@ -1,14 +1,24 @@
+import hydrate from 'next-mdx-remote/hydrate'
+import { getFileBySlug, getAllFilesFrontMatter } from '@/lib/mdx'
+import PostLayout from '@/layouts/PostLayout'
+import MDXComponents from '@/components/MDXComponents'
+
 import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
 import { PageSeo } from '@/components/SEO'
 
-import ReactTooltip from 'react-tooltip'
-import utilStyles from '../css/utils.module.css'
-import Graph0 from "../components/Graph_Rasterplot"
-import Graph1 from "../components/Graph1"
+export async function getStaticProps() {
+  const allPosts = await getAllFilesFrontMatter('publications')
+  const post = await getFileBySlug('publications','NeuronalNetworks')
+  return { props: { post} }
+}
 
+export default function NeuronalNetworks({post}) {
+  const { mdxSource, frontMatter } = post
+  const content = hydrate(mdxSource, {
+    components: MDXComponents,
+  })
 
-export default function WM_PRG() {
   return (
     <>
       <PageSeo
@@ -24,24 +34,10 @@ export default function WM_PRG() {
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
-
-          Relatively simple neuronal network configurations can give rise to surprisingly rich
-          repertoire of dynamic behaviours. For example, a stimulus can set off a cascade of
-          population spikes, which may serve as a correlate for working memory.
-          <Graph0/>
-          Some behaviors can be explained using simpler firing rate models -- which can be described
-          by easily solvable differential equations:
-          <img src="/static/animations/Figure4_c1.gif" alt="loading..." />
-
-          Check out the full paper by Sophia Becker et al.
-            <span data-tip="Becker et al., 'Formation and synaptic control of active transient working memory representations', BioRxiv">
-            <a href={"https://www.biorxiv.org/content/10.1101/2020.08.30.273995v1"}> here </a>
-            </span>.
-          
+          {content}          
           </div>
         </div>
       </div>
-      <ReactTooltip className={utilStyles.tooltip}/>
     </>
   )
 }

@@ -9,7 +9,7 @@ const projectsData = [
     title: 'Fluid mechanics',
     description: `Exploring what happens at the smallest scales when liquid, gas and solid meet..`,
     imgSrc: '/static/images/contactline.png',
-    href: '/blog/ContactLine',
+    href: '/FluidMechanics',
   },
   {
     title: 'Neuronal networks',
