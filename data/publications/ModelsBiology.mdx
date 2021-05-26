@@ -1,35 +1,33 @@
 ---
-title: Models in Biology
+title: Modeling in biological systems
 ---
 
- Working memory describes the brain's capacity to
- temporarily store a limited number of items. Its limited capacity sets it apart
- from stable long-term memory system. However, a computational models of working
- memory that represents memory through neuronal spikes and is finite in its duration
- is still missing.
+ **Representation of working memory items in the brain**
 
- **Representation of items in the brain**
+Working memory describes the brain's capacity to temporarily store a limited number of items. Its limited capacity sets it apart from stable long-term memory system. There is one synaptic signaling pathway, which has implications for working memory performance, has been associated with shizophrenia -- and has been shown to interfer with a specific type of synaptic plasticity. We set up a simplified model of this pathway,
 
+![PRG1 model](/static/images/PRG1_Model.png),
 
-
- As the background activity increases, a neural network traverses different states.
+and included its effect in a <TooltipCustom
+  text_link="Mongillo, Tsodyks: 'Synaptic Theory of Working Memory', Science (2008)"
+  href="https://science.sciencemag.org/content/319/5869/1543"
+  text_display="computational working memory model"/> based on <TooltipCustom
+    text_link="Fuster, Garrett: 'Neuron Activity Related to Short-Term Memory', Science (1971)"
+    href="https://science.sciencemag.org/content/173/3997/652.long"
+    text_display="population spikes"/>. We observe a rich dynamic behavior, including the emergence of transient
+  population spikes
  <G1
   width={200}
   height={200}
  />
- One
- <TooltipCustom
-   text_link="Fuster, Garrett: 'Neuron Activity Related to Short-Term Memory', Science (1971)"
-   href="https://science.sciencemag.org/content/173/3997/652.long"
-   text_display="idea"
- />
- is that working memory items are represented in the brain as recurrent population spikes.
- This can be implemented in a
- <TooltipCustom
-   text_link="Mongillo, Tsodyks: 'Synaptic Theory of Working Memory', Science (2008)"
-   href="https://science.sciencemag.org/content/319/5869/1543"
-   text_display="computational model"/>
- of working memory with short-term-plasticity:
+ as well as hitherto unobserved filtering properties which could be linked to working memory deficits associated with malfunctioning of the synaptic signaling pathway. Check out our work on <TooltipCustom
+   text_link="Becker et al., 'Formation and synaptic control of active transient working memory representations', BioRxiv"
+   text_display="BioRXiv"
+   href={"https://www.biorxiv.org/content/10.1101/2020.08.30.273995v1"}
+ />.
+
+
+**Maintenance failures of the brain leading up to neurodegeneration**
 
 
 ![Parenchymal Snapshot](/static/images/ParenchymalSnapshot_t.png)
