@@ -7,17 +7,14 @@ summary: Example of a markdown file with code blocks and syntax highlighting
 ---
 
 Relatively simple neuronal network configurations can give rise to surprisingly rich
-repertoire of dynamic behaviours. For example, a stimulus can set off a cascade of
-population spikes,
+repertoire of dynamic behaviours. For example, a stimulus can set off a cascade of <TooltipCustom
+  text_link="Becker et al., 'Formation and synaptic control of active transient working memory representations', BioRxiv"
+  text_display="population spikes:"
+  href={"https://www.biorxiv.org/content/10.1101/2020.08.30.273995v1"}
+/>
 <G0/>
-or neuronal correlates of
-  <TooltipCustom
-  text_link="Bernáez Timón et al., 'Reconciling contrast invariance and non-linear computation in cortical circuits', BioRxiv"
-  text_display="contrast invariance"
-  href={"https://www.biorxiv.org/content/10.1101/2021.04.23.441165v1"}/>.
-To ensure reliability and reproducibility of the C++ code used to compute these results, a user input is used, and a wide range of published results are reproduced. Some behaviors can also be reproduced using firing rate models, see also <TooltipCustom
-text_link="Bernáez Timón et al., 'Reconciling contrast invariance and non-linear computation in cortical circuits', BioRxiv"
-text_display="here"
-href={"https://www.biorxiv.org/content/10.1101/2021.04.23.441165v1"}/>.
+Each population spike is driven by a specific synaptic dynamical behavior -- the availability of calcium, of neurotransmitter -- and the actual firing rate of the neuronal population:
 
 ![Animation](/static/animations/Figure4_c1.gif)
+
+Other mechanisms are for instance neuronal correlates of <TooltipCustom text_link="Bernáez Timón et al., 'Reconciling contrast invariance and non-linear computation in cortical circuits', BioRxiv" text_display="contrast invariance." href={"https://www.biorxiv.org/content/10.1101/2021.04.23.441165v1"}/> We have developed a C++ code which allows to explore the behavior of large neuronal networks in a systematic manner.

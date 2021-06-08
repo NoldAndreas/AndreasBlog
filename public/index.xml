@@ -17,27 +17,17 @@
     <description>The intricacies of becoming a parent during your PhD</description>
     <pubDate>Mon, 31 May 2021 00:00:00 GMT</pubDate>
     <author>andreasnold@me.com (Andreas Nold)</author>
-    <category>Mental health</category><category>Parenting</category><category>PhD</category>
+    <category>Parenting</category><category>PhD</category><category>Self-organization</category>
   </item>
 
   <item>
     <guid>https://www.andreasnold.eu/blog/GreatTeachers</guid>
-    <title>Great teachers</title>
+    <title>Inspirational teachers</title>
     <link>https://www.andreasnold.eu/blog/GreatTeachers</link>
-    <description>Some example of some great maths, physics and teachers</description>
+    <description>Teachers that inspired me</description>
     <pubDate>Fri, 28 May 2021 00:00:00 GMT</pubDate>
     <author>andreasnold@me.com (Andreas Nold)</author>
-    <category>teaching</category><category>mathematics</category>
-  </item>
-
-  <item>
-    <guid>https://www.andreasnold.eu/blog/ContactLine</guid>
-    <title>Dynamic Contact Line</title>
-    <link>https://www.andreasnold.eu/blog/ContactLine</link>
-    <description>Example of a markdown file with code blocks and syntax highlighting</description>
-    <pubDate>Wed, 08 Jun 2016 00:00:00 GMT</pubDate>
-    <author>andreasnold@me.com (Andreas Nold)</author>
-    <category>fluid mechanics</category><category>nanoscale</category><category>DDFT</category>
+    <category>teaching</category><category>online-courses</category>
   </item>
 
     </channel>

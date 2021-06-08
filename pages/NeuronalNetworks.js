@@ -32,11 +32,11 @@ export default function NeuronalNetworks({post}) {
             Neuronal networks
           </h1>
         </div>
-        <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
+        <div className="items-start space-y-2 xl:grid xl:grid-cols-2 xl:gap-x-8 xl:space-y-0">
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
-          {content}          
-          </div>
+          {content}
         </div>
+        </div>      
       </div>
     </>
   )

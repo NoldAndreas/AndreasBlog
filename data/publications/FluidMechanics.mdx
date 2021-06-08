@@ -30,8 +30,34 @@ m n \frac{\textnormal{D{\bf v}}}{\textnormal{D}t} = - n {\boldsymbol \nabla}\lef
 $$
 
 This framework allows to study the interactions of particle interactions with hydrodynamic shear and compression forces $\boldsymbol \tau$.
-This allows to see how a shear layer emerges close to the wall or where compression emerges
+This allows to see how a shear layer emerges close to the wall or where compression emerges -- depending on the mean fluid density profile in the immediate vicinity of the contact line.
 
 ![Contact line](/static/images/contactline.png)
 
-See also PhD Thesis "From the nano- to the macroscale – bridging scales for the moving contact line problem", access [here](https://spiral.imperial.ac.uk/handle/10044/1/34933).
+# Code
+
+Because at the nanoscale, the fluid behavior is described by an integral-equation, we developed our own numerical scheme based on Pseudospectral methods. The code is available on [Github](https://github.com/NoldAndreas/2DChebClass) and was used to compute results published in the following papers:
+
+- Benjamin D. Goddard, Beth Gooding, Grigoris A. Pavliotis, Hannah Short ,2020, "Noisy bounded confidence models for opinion dynamics: the effect of boundary conditions on phase transitions" [ArXiv](https://arxiv.org/abs/2009.03131)
+- B. D. Goddard, R. D. Mills-Williams, Grigorios Pavliotis, 2020, "Well-Posedness and Equilibrium Behaviour of Overdamped Dynamic Density Functional Theory" [ArXiv](https://arxiv.org/abs/2002.11663)
+- Goddard, Mills-Williams, Sun, 2020, "The singular hydrodynamic interactions between two spheres in Stokes flow", Phys. Fluids, 32, 062001 [PoF](https://aip.scitation.org/doi/full/10.1063/5.0009053)
+- Nold, A., MacDowell, L. G., Sibley, D. N., Goddard, B. D., Kalliadasis, S., 2018, “The vicinity of an equilibrium three-phase contact line using density-functional theory: density profiles normal to the fluid interface”, Mol. Phys. (5 pgs.) Links: [core.ac.uk](https://core.ac.uk/download/pdf/288361568.pdf), [Mol Phys](https://www.tandfonline.com/doi/full/10.1080/00268976.2018.1471223)
+- Nold, A., Goddard, B. D., Yatsyshin, P., Savva, N., & Kalliadasis, S., 2017 ”Pseudospectral methods for density functional theory in bounded and unbounded domains." J. Comp. Phys. 334 639-664. Links: [ArXiv](https://arxiv.org/abs/1701.06182), [J Comp Phys](https://www.sciencedirect.com/science/article/pii/S0021999116306775?via%3Dihub)
+- Goddard, B. D., Nold, A., & Kalliadasis, S., 2016 “Dynamical density functional theory with hydrodynamic interactions in confined geometries” J. Chem. Phys. 145 Art. No. 214106 (19 pgs.). [PubMed](https://pubmed.ncbi.nlm.nih.gov/28799384/)
+- Nold, A., Sibley, D.N., Goddard, B.D. & Kalliadasis, S., 2015 “Nanoscale fluid structure of liquid-solid-vapour contact lines for a wide range of contact angles,” Math. Model. Nat. Phenom. 10 111–125.
+Links: [ArXiv](https://arxiv.org/abs/1503.03232), [MMNP](https://www.mmnp-journal.org/articles/mmnp/abs/2015/04/mmnp201510p111/mmnp201510p111.html)
+
+# Selected publications
+
+- Nold, A., MacDowell, L. G., Sibley, D. N., Goddard, B. D., Kalliadasis, S., 2018, “The vicinity of an equilibrium three-phase contact line using density-functional theory: density profiles normal to the fluid interface”, Mol. Phys. (5 pgs.) Links: [core.ac.uk](https://core.ac.uk/download/pdf/288361568.pdf), [Mol Phys](https://www.tandfonline.com/doi/full/10.1080/00268976.2018.1471223)
+- Nold, A., Goddard, B. D., Yatsyshin, P., Savva, N., & Kalliadasis, S., 2017 ”Pseudospectral methods for density functional theory in bounded and unbounded domains." J. Comp. Phys. 334 639-664. Links: [ArXiv](https://arxiv.org/abs/1701.06182), [J Comp Phys](https://www.sciencedirect.com/science/article/pii/S0021999116306775?via%3Dihub)
+- Nold, A. 2016 "From the Nano- to the Macroscale – Bridging Scales for the Moving Contact Line Problem", PhD Thesis [ResearchGate](https://www.researchgate.net/publication/320111206_From_the_Nano-_to_the_Macroscale_-_Bridging_Scales_for_the_Moving_Contact_Line_Problem)
+- Nold, A., Sibley, D.N., Goddard, B.D. & Kalliadasis, S., 2015 “Nanoscale fluid structure of liquid-solid-vapour contact lines for a wide range of contact angles,” Math. Model. Nat. Phenom. 10 111–125.
+Links: [ArXiv](https://arxiv.org/abs/1503.03232), [MMNP](https://www.mmnp-journal.org/articles/mmnp/abs/2015/04/mmnp201510p111/mmnp201510p111.html)
+- Sibley, D.N., Nold, A. & Kalliadasis, S. 2014 “The asymptotics of the moving contact line: Cracking an old nut,” J. Fluid Mech. 764 445-462. Links: [lboro.ac.uk](https://repository.lboro.ac.uk/articles/journal_contribution/The_asymptotics_of_the_moving_contact_line_cracking_an_old_nut/9385814)
+- Nold, A., Sibley, D.N., Goddard, B.D. & Kalliadasis, S. 2014, “Fluid structure in the immediate vicinity of an equilibrium three-phase contact line and assessment of disjoining pressure models using density functional theory,” Phys. Fluids 26 Art. No. 072001 (16 pgs) (Featured in the [“Research highlights from Physics of Fluids”](http://aip-info.org/1XPS-2NQ72-FCC9SV1666/cr.aspx)).
+Links:
+[Loughborough repository](https://repository.lboro.ac.uk/articles/journal_contribution/Fluid_structure_in_the_immediate_vicinity_of_an_equilibrium_three-phase_contact_line_and_assessment_of_disjoining_pressure_models_using_density_functional_theory/9385112), [PoF](https://doi.org/10.1063/1.4886128)
+- Goddard, B.D., Nold, A., Savva, N., Yatsyshin, P. & Kalliadasis, S. 2013 “Unification of dynamic density functional theory for colloidal fluids to include inertia and hydrodynamic interactions: derivation and numerical experiments,” J. Phys.: Condens. 25 Art. No. 035101 (14 pgs). [PubMed](https://pubmed.ncbi.nlm.nih.gov/23220969/)
+- Goddard, B.D., Nold, A., Savva, N., Pavliotis, G.A., Kalliadasis, S. 2012 “General dynamical density functional theory for classical fluids,” Phys. Rev. Lett. 109 Art. No. 120603 (5 pgs). [ArXiv](https://arxiv.org/abs/1202.3270)
+- Nold, A., Malijevský, A. & Kalliadasis, S. 2011 “Wetting on a spherical wall: influence of liquid- gas interfacial properties,” Phys. Rev. E 84 Art. No. 021603 (17 pgs). [ArXiv](https://arxiv.org/abs/1103.6125)
