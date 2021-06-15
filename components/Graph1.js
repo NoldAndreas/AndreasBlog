@@ -34,7 +34,7 @@ const Graph1 = props => {
 
      // add the options to the button
      d3.select("#selectButtonn")
-       .attr("class","form-select block")
+       .attr("class","block block px-4 py-2 text-gray-900 bg-white border border-gray-300 rounded-md dark:border-gray-900 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-800 dark:text-gray-100")
        .selectAll('myOptions')
        .data(allGroup)
        .enter()

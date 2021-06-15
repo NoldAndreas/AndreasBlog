@@ -3,7 +3,8 @@ title: Inspirational teachers
 date: '2021-05-28'
 tags: ['teaching','online-courses']
 draft: false
-summary:  Teachers that inspired me
+summary:  Teachers that inspire
+searchItems: Great teachers
 ---
 
 There are some teachers that had a great impact on what I then decided to learn. They also inspired me on how to think, or how to approach a topic. At the beginning of my PhD, I learnt some basics of statistical mechanics. The ease with which Leonard Susskind from Stanford introduced the subject fascinated me..

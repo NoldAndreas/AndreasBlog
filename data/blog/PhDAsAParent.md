@@ -4,6 +4,7 @@ date: '2021-05-31'
 tags: ['Parenting','PhD','Self-organization']
 draft: false
 summary: The intricacies of becoming a parent during your PhD
+searchItems: PhD parent
 ---
 
 Becoming a parent in academia often coincides with the early career phase and can feel [like stopping cycling halfway up a hill](https://www.sciencemag.org/careers/2017/10/when-it-comes-having-family-and-academic-career-find-what-works-you). New [studies](https://www.pnas.org/content/early/2019/02/12/1810862116) highlight how important it is to take these challenges seriously: [More than a quarter](https://www.sciencemag.org/careers/2019/02/after-baby-28-new-parents-leave-full-time-stem-work) of new parents leave STEM employment. This disproportionally affects women’s careers: 43% of women leave vs 23% of men, and for women with kids, the [gender pay gap is much wider](https://www.bloomberg.com/news/articles/2019-04-10/the-pay-check-what-having-kids-does-to-women-s-pay), with huge implications for lifetime earnings. Pursing an academic career poses [additional challenges](https://www.theatlantic.com/sexes/archive/2013/07/for-female-scientists-theres-no-good-time-to-have-children/278165/).

@@ -17,7 +17,12 @@ const projectsData = [
     imgSrc: '/static/images/u_pdf_sample.png',
     href: '/NeuronalNetworks',
   },
-
+  {
+    title: 'Computational models of resilience',
+    description: `How do cells maintain their resilience`,
+    imgSrc: '/static/images/ParenchymalSnapshot_overview.png',
+    href: '/ModelingResilience',
+  },
 ]
 
 export default projectsData
