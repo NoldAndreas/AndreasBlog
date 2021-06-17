@@ -24,8 +24,7 @@ export default function About() {
             </h3>
             <div className="text-gray-500 dark:text-gray-400">PostDoc</div>
             <div className="text-gray-500 dark:text-gray-400">University Hospital Bonn</div>
-            <div className="flex pt-6 space-x-3">
-              <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} />
+            <div className="flex pt-6 space-x-3">              
               <SocialIcon kind="github" href={siteMetadata.github} />
               <SocialIcon kind="facebook" href={siteMetadata.facebook} />
               <SocialIcon kind="youtube" href={siteMetadata.youtube} />
