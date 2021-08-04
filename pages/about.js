@@ -24,7 +24,7 @@ export default function About() {
             </h3>
             <div className="text-gray-500 dark:text-gray-400">PostDoc</div>
             <div className="text-gray-500 dark:text-gray-400">University Hospital Bonn</div>
-            <div className="flex pt-6 space-x-3">              
+            <div className="flex pt-6 space-x-3">
               <SocialIcon kind="github" href={siteMetadata.github} />
               <SocialIcon kind="facebook" href={siteMetadata.facebook} />
               <SocialIcon kind="youtube" href={siteMetadata.youtube} />
@@ -34,14 +34,22 @@ export default function About() {
           </div>
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
           <p>
-            Andreas is an applied mathematician at the Theory of neuronal dynamics group of Tatjana Tchumatchenko,
-            then Max-Planck Institute for Brain Research, now University Hospital Bonn.
+          Andreas completed his undergraduate studies in both mechanical engineering and
+          mathematics and computer science at TU Darmstadt. There, he specialized
+          in the analysis and simulation of differential equations in fluid mechanics.
+          He did his PhD at Imperial College London on computational models of fluid flows at the nanoscale.
           </p>
           <p>
-            He applies data analysis & computational modeling to different biology and neuroscience applications.
+          After a short stint in IT consultancy with Senacor at one of the top banks in Germany, he transitioned to
+          the field of biology and neuroscience as a PostDoc at the Max-Planck Institute for Brain Research in Frankfurt.
+          There, he pursued several collaborative projects with clinical and experimental groups. These included
+          data analysis of single-molecule super-resolution imaging data,
+          the development of mathematical models for neuronal correlates of working memory and long-term neurological disease progression,
+          as well as programming of a software framework for neuronal network simulations.
           </p>
           <p>
-            Besides that, a cook, father, reader, learner.
+          Andreas is driven by the curiosity to connect the dots, make applications work, and apply cutting-edge
+          modeling and data analysis techniques across disciplines. He works hard to enable the team and its members to succeed.
           </p>
           </div>
         </div>

@@ -5,8 +5,8 @@
       <link>https://www.andreasnold.eu/blog</link>
       <description>Projects and Blog</description>
       <language>en-us</language>
-      <managingEditor>andreasnold@me.com (Andreas Nold)</managingEditor>
-      <webMaster>andreasnold@me.com (Andreas Nold)</webMaster>
+      <managingEditor> (Andreas Nold)</managingEditor>
+      <webMaster> (Andreas Nold)</webMaster>
       <lastBuildDate>Mon, 31 May 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://www.andreasnold.eu/index.xml" rel="self" type="application/rss+xml"/>
       
@@ -16,7 +16,7 @@
     <link>https://www.andreasnold.eu/blog/PhDAsAParent</link>
     <description>The intricacies of becoming a parent during your PhD</description>
     <pubDate>Mon, 31 May 2021 00:00:00 GMT</pubDate>
-    <author>andreasnold@me.com (Andreas Nold)</author>
+    <author> (Andreas Nold)</author>
     <category>Parenting</category><category>PhD</category><category>Self-organization</category>
   </item>
 
@@ -26,7 +26,7 @@
     <link>https://www.andreasnold.eu/blog/GreatTeachers</link>
     <description>Teachers that inspire</description>
     <pubDate>Fri, 28 May 2021 00:00:00 GMT</pubDate>
-    <author>andreasnold@me.com (Andreas Nold)</author>
+    <author> (Andreas Nold)</author>
     <category>teaching</category><category>online-courses</category>
   </item>
 
