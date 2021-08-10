@@ -23,7 +23,7 @@ export default function About() {
               {siteMetadata.author}
             </h3>
             <div className="text-gray-500 dark:text-gray-400">PostDoc</div>
-            <div className="text-gray-500 dark:text-gray-400">University Hospital Bonn</div>
+            <div className="text-gray-500 dark:text-gray-400">Computational Modeling & Data Analysis</div>
             <div className="flex pt-6 space-x-3">
               <SocialIcon kind="github" href={siteMetadata.github} />
               <SocialIcon kind="facebook" href={siteMetadata.facebook} />
@@ -40,11 +40,11 @@ export default function About() {
           He did his PhD at Imperial College London on computational models of fluid flows at the nanoscale.
           </p>
           <p>
-          After a short stint in IT consultancy with Senacor at one of the top banks in Germany, he transitioned to
-          the field of biology and neuroscience as a PostDoc at the Max-Planck Institute for Brain Research in Frankfurt.
-          There, he pursued several collaborative projects with clinical and experimental groups. These included
+          After working as an IT consultant with Senacor at one of the top banks in Germany, he moved to
+          the field of neuroscience as a PostDoc at the Max-Planck Institute for Brain Research in Frankfurt.
+          There, he pursued several collaborative projects, including
           data analysis of single-molecule super-resolution imaging data,
-          the development of mathematical models for neuronal correlates of working memory and long-term neurological disease progression,
+          the mathematical modeling for neuronal correlates of working memory,
           as well as programming of a software framework for neuronal network simulations.
           </p>
           <p>

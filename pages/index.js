@@ -19,7 +19,7 @@ export default function Projects() {
             Projects
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-          Models, code & mathematical analysis in neuroscience and fluid mechanics.
+          Models, Code & Computational Analysis across Disciplines.
           </p>
         </div>
         <div className="container py-12">
