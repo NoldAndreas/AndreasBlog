@@ -40,7 +40,7 @@ export default function About() {
           He did his PhD at Imperial College London on computational models of fluid flows at the nanoscale.
           </p>
           <p>
-          After working as an IT consultant with Senacor at one of the top banks in Germany, he moved to
+          After working as an IT consultant with Senacor at a large bank in Germany, he moved to
           the field of neuroscience as a PostDoc at the Max-Planck Institute for Brain Research in Frankfurt.
           There, he pursued several collaborative projects, including
           data analysis of single-molecule super-resolution imaging data,
@@ -49,7 +49,7 @@ export default function About() {
           </p>
           <p>
           Andreas is driven by the curiosity to connect the dots, make applications work, and apply cutting-edge
-          modeling and data analysis techniques across disciplines. He works hard to enable the team and its members to succeed.
+          modeling and data analysis techniques across disciplines.
           </p>
           </div>
         </div>
